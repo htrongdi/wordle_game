@@ -8,7 +8,6 @@ import "./keyboard.css"
 import wordList from "../../words.json"
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { Button } from '@mui/material';
 
 const Keyboard:React.FC= () => {
     const position = useSelector((state:rootState)=> state.board.pos);
